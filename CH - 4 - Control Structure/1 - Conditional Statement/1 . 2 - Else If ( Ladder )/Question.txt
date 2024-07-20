@@ -1,1 +1,0 @@
-Q.1 - Write a Program Make A Simple Grade System From Student Percentage In C language
