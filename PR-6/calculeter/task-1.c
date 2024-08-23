@@ -17,8 +17,7 @@ int main()
     printf("\n");
     int c=getchoice();
         
-    do
-    {
+    
         switch(c)
         {
         case 1 :
@@ -31,7 +30,7 @@ int main()
             printf("%d",result);;
             goto tmp;
         case 3:
-             result=multi(a,b);
+            result=multi(a,b);
             printf("%d",result);
             goto tmp;
         case 4:
@@ -55,5 +54,5 @@ int main()
             printf("invelid number......");
             goto tmp;
         }
-    }while(c!=0);
+    
 }
